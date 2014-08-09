@@ -1,0 +1,28 @@
+{
+  "name": "proexpressjs",
+  "version": "0.0.1",
+  "description": "Examples for the Practical Node.js book (Apress) ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azat-co/proexpressjs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "mongodb",
+    "javascript"
+  ],
+  "author": "Azat Mardan (@azat_co)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azat-co/proexpressjs/issues"
+  },
+  "homepage": "https://github.com/azat-co/proexpressjs",
+  "dependencies": {
+    "express": "^4.8.1"
+  }
+}
