@@ -1,0 +1,13 @@
+{
+  "name": "conf-app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "4.8.1",
+    "jade": "1.5.0",
+    "stylus": "0.47.3"
+  }
+}
