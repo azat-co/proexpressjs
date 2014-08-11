@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/azat-co/proexpressjs",
   "dependencies": {
-    "express": "^4.8.1"
+    "express": "4.8.1"
   }
 }
