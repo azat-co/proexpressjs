@@ -1,0 +1,17 @@
+{
+  "name": "template-app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "consolidate": "^0.10.0",
+    "errorhandler": "1.1.1",
+    "express": "4.8.1",
+    "jade": "1.5.0",
+    "morgan": "1.2.2",
+    "swig": "^1.4.2",
+    "serve-favicon": "2.0.1"
+  }
+}
