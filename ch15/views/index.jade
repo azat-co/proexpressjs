@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/css/style.css')
+  body
+    if errors
+      each error in errors
+        p.error= error.msg
+    form(method="post", action="/login")
+      input(type="hidden", name="_csrf", value="#{csrftoken}")
+      input(type="text", name="email", placeholder="hi@webapplog.com")
+      input(type="password", name="password", placeholder="Password")
+      button(type="submit") Login
+    p
+      include lorem-ipsum
