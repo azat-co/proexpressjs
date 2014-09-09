@@ -18,6 +18,6 @@
     "serve-favicon": "2.0.1",
     "serve-index": "1.1.6",
     "stylus": "0.47.3",
-    "vhost": "^2.0.0"
+    "vhost": "2.0.0"
   }
 }
