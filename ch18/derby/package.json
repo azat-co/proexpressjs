@@ -1,0 +1,11 @@
+{
+  "name": "derby-app",
+  "description": "",
+  "version": "0.0.1",
+  "main": "./server.js",
+  "dependencies": {
+    "derby": "^0.6.0-alpha24",
+    "derby-starter": "^0.2.3",
+    "express": "3.1.0"
+  }
+}
