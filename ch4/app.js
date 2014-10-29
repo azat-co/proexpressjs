@@ -20,6 +20,7 @@ app.set('view engine', 'jade');
 app.set('port', process.env.PORT || 3000);
 app.use(compression({threshold: 1}));
 app.use(logger('combined'));
+// app.use(logger(':method :url :status :res[content-length] - :response-time ms'));
 app.use(methodOverride('_method'));
 app.use(responseTime(4));
 app.use(favicon(path.join('public', 'favicon.ico')));

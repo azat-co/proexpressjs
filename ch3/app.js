@@ -27,7 +27,7 @@ app.set('json spaces', 4);
 
 app.set('case sensitive routing', true);
 app.set('strict routing', true);
-app.set('x-powered-by', false);
+// app.set('x-powered-by', false);
 app.set('subdomain offset', 3);
 // app.disable('etag')
 // app.set('query parser', false);
