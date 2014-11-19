@@ -12,7 +12,7 @@ var largeImagePath = path.join(__dirname, 'files', 'large-image.jpg');
 
 var app = express();
 
-// view engine setup
+// View engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 app.use(logger('combined'));
@@ -38,7 +38,7 @@ app.get('/locals', function(req, res){
 });
 
 app.get('/set-html', function(req, res) {
-  //some code
+  // Some code
   res.set('Content-Type', 'text/html');
   res.end('<html><body>' +
     '<h1>Express.js Guide</h1>' +
@@ -118,10 +118,10 @@ app.use(function(req, res, next) {
     next(err);
 });
 
-/// error handlers
+/// Error handlers
 
-// development error handler
-// will print stacktrace
+// Development error handler
+// Will print stacktrace
 if (app.get('env') === 'development') {
     app.use(function(err, req, res, next) {
         res.status(err.status || 500);
@@ -132,8 +132,8 @@ if (app.get('env') === 'development') {
     });
 }
 
-// production error handler
-// no stacktraces leaked to user
+// Production error handler
+// No stacktraces leaked to user
 app.use(function(err, req, res, next) {
     res.status(err.status || 500);
     res.render('error', {
