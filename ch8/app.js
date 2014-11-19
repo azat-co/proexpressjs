@@ -39,7 +39,7 @@ app.get('/locals', function(req, res){
 
 app.get('/set-html', function(req, res) {
   //some code
-  // res.set('Content-type', 'text/html');
+  res.set('Content-Type', 'text/html');
   res.end('<html><body>' +
     '<h1>Express.js Guide</h1>' +
     '</body></html>');
