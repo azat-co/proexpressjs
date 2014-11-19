@@ -5,6 +5,7 @@
   "main": "./server.js",
   "dependencies": {
     "derby": "0.6.0-alpha24",
+    "derby-less": "0.1.0",
     "derby-starter": "0.2.3"
   }
 }
