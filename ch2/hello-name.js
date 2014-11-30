@@ -4,7 +4,7 @@ var app = express();
 
 app.get('/name/:user_name', function(request,response) {
   response.status(200);
-  response.set('Content-type', 'text/html');
+  response.set('Content-Type', 'text/html');
   response.end('<html><body>' +
     '<h1>Hello ' + req.params.user_name + '</h1>' +
     '</body></html>'
