@@ -1,0 +1,8 @@
+{
+  "content": [
+    "docs/header-node.md",
+    "index.js",
+    "docs/header-browser.md",
+    "browser.js"
+  ]
+}

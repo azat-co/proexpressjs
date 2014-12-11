@@ -1,0 +1,18 @@
+{
+  "name": "Example",
+  "version": "0.0.0",
+  "description": "Derby less example",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Artur Zayats <zag2art@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "derby-starter": "~0.1.2",
+    "derby": "0.6.0-alpha8",
+    "derby-jade": "~0.6.4",
+    "derby-less": "git://github.com/codeparty/derby-less"
+  }
+}

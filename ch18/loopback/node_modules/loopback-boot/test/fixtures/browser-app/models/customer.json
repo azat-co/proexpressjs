@@ -1,0 +1,4 @@
+{
+  "name": "Customer",
+  "base": "User"
+}
