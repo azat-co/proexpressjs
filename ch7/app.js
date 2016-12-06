@@ -44,7 +44,7 @@ app.get('/cookies', function(req, res){
     res.cookie('counter', 0);
   else
     res.cookie('counter', parseInt(req.cookies.counter,10) + 1);
-  res.status(200).send('cookies are: ', req.cookies);
+  res.status(200).send('cookies are: '+JSON.stringify(req.cookies));
 });
 
 app.get('/signed-cookies', function(req, res){
@@ -52,7 +52,7 @@ app.get('/signed-cookies', function(req, res){
     res.cookie('counter', 0, {signed: true});
   else
     res.cookie('counter', parseInt(req.signedCookies.counter,10) + 1, {signed: true});
-  res.status(200).send('cookies are: ', req.signedCookies);
+  res.status(200).send('cookies are: '+JSON.stringify(req.signedCookies));
 });
 
 /// catch 404 and forward to error handler
